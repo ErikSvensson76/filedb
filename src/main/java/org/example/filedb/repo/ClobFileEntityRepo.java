@@ -1,4 +1,4 @@
-package org.example.filedb.service.repo;
+package org.example.filedb.repo;
 
 import org.example.filedb.model.ClobFileEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
