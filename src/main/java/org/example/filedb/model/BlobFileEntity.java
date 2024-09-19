@@ -23,6 +23,6 @@ public class BlobFileEntity {
   @Lob
   @Basic(fetch = FetchType.LAZY)
   @Column(name = "blob")
-  private Byte[] file;
+  private byte[] file;
 
 }
