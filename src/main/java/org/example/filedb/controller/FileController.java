@@ -4,8 +4,6 @@ import jakarta.validation.constraints.NotNull;
 import lombok.RequiredArgsConstructor;
 import org.example.filedb.model.Pair;
 import org.example.filedb.service.FileService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -20,7 +18,6 @@ import java.util.Optional;
 @Validated
 public class FileController {
 
-  private static final Logger log = LoggerFactory.getLogger(FileController.class);
   private final FileService fileService;
 
   @PostMapping("/files")
