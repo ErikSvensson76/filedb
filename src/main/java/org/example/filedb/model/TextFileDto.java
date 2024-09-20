@@ -7,9 +7,9 @@ import java.io.Serializable;
 @Getter
 @Setter
 @NoArgsConstructor
-public class FileDto implements Serializable {
+public class TextFileDto implements Serializable {
   private String id;
   private String filename;
   private String mimeType;
-  private String url;
+  private String content;
 }
